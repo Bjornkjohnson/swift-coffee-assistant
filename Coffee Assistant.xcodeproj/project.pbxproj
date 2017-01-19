@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1816AC871E31209A00635CBB /* LargeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1816AC861E31209A00635CBB /* LargeLogo.png */; };
 		184106B11E311A8500D0FD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B01E311A8500D0FD2B /* AppDelegate.swift */; };
 		184106B31E311A8500D0FD2B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B21E311A8500D0FD2B /* RootViewController.swift */; };
 		184106B51E311A8500D0FD2B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B41E311A8500D0FD2B /* DataViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1816AC861E31209A00635CBB /* LargeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeLogo.png; sourceTree = "<group>"; };
 		184106AD1E311A8500D0FD2B /* Coffee Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184106B01E311A8500D0FD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184106B21E311A8500D0FD2B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1816AC881E3120A800635CBB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1816AC861E31209A00635CBB /* LargeLogo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		184106A41E311A8500D0FD2B = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +118,7 @@
 				184106B81E311A8500D0FD2B /* Main.storyboard */,
 				184106BB1E311A8500D0FD2B /* Assets.xcassets */,
 				184106BD1E311A8500D0FD2B /* LaunchScreen.storyboard */,
+				1816AC881E3120A800635CBB /* Images */,
 				184106C01E311A8500D0FD2B /* Info.plist */,
 			);
 			path = "Coffee Assistant";
@@ -238,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1816AC871E31209A00635CBB /* LargeLogo.png in Resources */,
 				184106BF1E311A8500D0FD2B /* LaunchScreen.storyboard in Resources */,
 				184106BC1E311A8500D0FD2B /* Assets.xcassets in Resources */,
 				184106BA1E311A8500D0FD2B /* Main.storyboard in Resources */,
@@ -511,6 +523,7 @@
 				184106DB1E311A8500D0FD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184106DC1E311A8500D0FD2B /* Build configuration list for PBXNativeTarget "Coffee AssistantTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +532,7 @@
 				184106DE1E311A8500D0FD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184106DF1E311A8500D0FD2B /* Build configuration list for PBXNativeTarget "Coffee AssistantUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +541,7 @@
 				184106E11E311A8500D0FD2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
