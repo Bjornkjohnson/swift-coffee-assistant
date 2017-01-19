@@ -10,13 +10,18 @@ import UIKit
 
 class DataViewController: UIViewController {
 
+    @IBOutlet weak var DataScrollView: UIScrollView!
+    @IBOutlet weak var ChemexButton: UIButton!
     @IBOutlet weak var dataLabel: UILabel!
     var dataObject: String = ""
+    var buttonArray = [UIButton]()
+    
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        buttonArray = []
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +31,6 @@ class DataViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 

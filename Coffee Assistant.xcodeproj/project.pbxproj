@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1816AC871E31209A00635CBB /* LargeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1816AC861E31209A00635CBB /* LargeLogo.png */; };
+		1830345B1E315CAB00FEA545 /* Brew_Guide-Chemex-Grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1830345A1E315CAB00FEA545 /* Brew_Guide-Chemex-Grid.jpg */; };
+		1830345D1E315CE000FEA545 /* Brew_Guide-BeeHouse-Grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1830345C1E315CE000FEA545 /* Brew_Guide-BeeHouse-Grid.jpg */; };
 		184106B11E311A8500D0FD2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B01E311A8500D0FD2B /* AppDelegate.swift */; };
 		184106B31E311A8500D0FD2B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B21E311A8500D0FD2B /* RootViewController.swift */; };
 		184106B51E311A8500D0FD2B /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184106B41E311A8500D0FD2B /* DataViewController.swift */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		1816AC861E31209A00635CBB /* LargeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LargeLogo.png; sourceTree = "<group>"; };
+		1830345A1E315CAB00FEA545 /* Brew_Guide-Chemex-Grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brew_Guide-Chemex-Grid.jpg"; sourceTree = "<group>"; };
+		1830345C1E315CE000FEA545 /* Brew_Guide-BeeHouse-Grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brew_Guide-BeeHouse-Grid.jpg"; sourceTree = "<group>"; };
 		184106AD1E311A8500D0FD2B /* Coffee Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		184106B01E311A8500D0FD2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184106B21E311A8500D0FD2B /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 		1816AC881E3120A800635CBB /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				1830345A1E315CAB00FEA545 /* Brew_Guide-Chemex-Grid.jpg */,
+				1830345C1E315CE000FEA545 /* Brew_Guide-BeeHouse-Grid.jpg */,
 				1816AC861E31209A00635CBB /* LargeLogo.png */,
 			);
 			name = Images;
@@ -249,6 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1830345D1E315CE000FEA545 /* Brew_Guide-BeeHouse-Grid.jpg in Resources */,
+				1830345B1E315CAB00FEA545 /* Brew_Guide-Chemex-Grid.jpg in Resources */,
 				1816AC871E31209A00635CBB /* LargeLogo.png in Resources */,
 				184106BF1E311A8500D0FD2B /* LaunchScreen.storyboard in Resources */,
 				184106BC1E311A8500D0FD2B /* Assets.xcassets in Resources */,
